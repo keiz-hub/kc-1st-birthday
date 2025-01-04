@@ -214,8 +214,8 @@ section .title::after{
 }
 
 .about, .teams{
-    color:#fff;
-    background: #0000;
+    color:#111;
+    background: #fff;
 }
 .about .title::before,
 .teams .title::before{
