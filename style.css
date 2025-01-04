@@ -213,56 +213,82 @@ section .title::after{
     background: none;
 }
 
-.event-content {
+.about .event {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
-.column.left {
+.about .event-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about .column {
     flex: 1;
     max-width: 48%;
 }
 
-.column.left img {
+.about .column.left img {
     width: 100%;
     border-radius: 8px;
     object-fit: cover;
 }
 
-.column.right {
-    flex: 1;
-    max-width: 48%;
+.about .column.right {
     text-align: left;
 }
 
-.column.right .text {
+.about .column.right .text {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 15px;
     color: rgb(135, 0, 97);
 }
 
-.column.right p {
+.about .column.right p {
     text-align: justify;
     line-height: 1.6;
     margin-bottom: 20px;
     color: #555;
 }
 
+.about .icons .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.about .icons .row i {
+    font-size: 25px;
+    color: rgb(135, 0, 97);
+    margin-right: 15px;
+}
+
+.about .icons .row .info .head {
+    font-weight: 500;
+    color: rgb(135, 0, 97);
+}
+
+.about .icons .row .info .sub-title {
+    color: #333;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
-    .event-content {
+    .about .event {
         flex-direction: column;
     }
 
-    .column.left,
-    .column.right {
+    .about .column {
         max-width: 100%;
     }
 
-    .column.right {
+    .about .column.right {
         text-align: center;
     }
 }
