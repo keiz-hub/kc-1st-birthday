@@ -213,86 +213,59 @@ section .title::after{
     background: none;
 }
 
-.about .event {
+.event-content {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: center;
     gap: 20px;
 }
 
-.about .event-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.about .column {
+.column.left {
     flex: 1;
     max-width: 48%;
 }
 
-.about .column.left img {
+.column.left img {
     width: 100%;
     border-radius: 8px;
     object-fit: cover;
 }
 
-.about .column.right {
+.column.right {
+    flex: 1;
+    max-width: 48%;
     text-align: left;
 }
 
-.about .column.right .text {
+.column.right .text {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 15px;
     color: rgb(135, 0, 97);
 }
 
-.about .column.right p {
+.column.right p {
     text-align: justify;
     line-height: 1.6;
     margin-bottom: 20px;
     color: #555;
 }
 
-.about .icons .row {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.about .icons .row i {
-    font-size: 25px;
-    color: rgb(135, 0, 97);
-    margin-right: 15px;
-}
-
-.about .icons .row .info .head {
-    font-weight: 500;
-    color: rgb(135, 0, 97);
-}
-
-.about .icons .row .info .sub-title {
-    color: #333;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
-    .about .event {
+    .event-content {
         flex-direction: column;
     }
 
-    .about .column {
+    .column.left,
+    .column.right {
         max-width: 100%;
     }
 
-    .about .column.right {
+    .column.right {
         text-align: center;
     }
 }
-
 
 /* services section styling */
 .services, .teams{
