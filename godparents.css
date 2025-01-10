@@ -39,8 +39,8 @@
 }
 
 .godparents .godparents-content .card img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 5px;
     margin-bottom: 15px;
     transition: transform 0.3s ease;
