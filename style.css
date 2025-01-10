@@ -32,7 +32,7 @@ section{
 }
 .max-width{
     max-width: 1300px;
-    padding: 0 30px;
+    padding: 0 15px;
     margin: auto;
 }
 .about, .services, .skills, .teams, .contact, footer{
