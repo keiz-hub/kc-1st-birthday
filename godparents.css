@@ -8,15 +8,22 @@
     background: #fff;
 }
 
+.godparents .godparents-content {
+    display: flex;
+    flex-wrap: wrap; /* Ensures cards wrap to the next row */
+    gap: 20px; /* Adds space between cards */
+    justify-content: space-between; /* Distributes space evenly */
+}
+
 .godparents .godparents-content .card {
-    width: calc(33% - 20px);
+    flex: 1 1 calc(25% - 20px); /* Four cards in a row with space */
     background: #222;
     text-align: center;
     border-radius: 6px;
     padding: 30px 20px;
-    margin: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-sizing: border-box; /* Ensures padding and border are included in width */
 }
 
 .godparents .godparents-content .card:hover {
