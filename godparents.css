@@ -1,13 +1,3 @@
-/* Godparents Section Styling */
-.godparents {
-    color: #fff;
-    background: #111;
-}
-
-.godparents .title::before {
-    background: #fff;
-}
-
 .godparents .godparents-content {
     display: flex;
     flex-wrap: wrap; /* Ensures cards wrap to the next row */
@@ -16,7 +6,7 @@
 }
 
 .godparents .godparents-content .card {
-    flex: 1 1 calc(25% - 20px); /* Four cards in a row with space */
+    flex: 1 1 calc(20% - 20px); /* Five cards in a row with space */
     background: #222;
     text-align: center;
     border-radius: 6px;
