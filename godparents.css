@@ -16,7 +16,7 @@
 }
 
 .godparents .godparents-content .card {
-    flex: 1 1 calc(25% - 20px); /* Four cards in a row with space */
+    flex: 1 1 calc(20% - 20px); /* Four cards in a row with space */
     background: #222;
     text-align: center;
     border-radius: 6px;
