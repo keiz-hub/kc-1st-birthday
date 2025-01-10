@@ -61,3 +61,37 @@
     color: #ccc;
     line-height: 1.5;
 }
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background: #222;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.tab-button.active {
+    background: rgb(135, 0, 97);
+}
+
+.tab-button:hover {
+    background: #444;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
