@@ -1,41 +1,56 @@
-/* services section styling */
-.services, .teams{
-    color:#fff;
+/* Godparents Section Styling */
+.godparents {
+    color: #fff;
     background: #111;
 }
-.services .title::before,
-.teams .title::before{
+
+.godparents .title::before {
     background: #fff;
 }
 
-.services .serv-content .card{
+.godparents .godparents-content .card {
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
     border-radius: 6px;
-    padding: 50px 25px;
+    padding: 30px 20px;
+    margin: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover{
+
+.godparents .godparents-content .card:hover {
     background: rgb(135, 0, 97);
 }
-.services .serv-content .card .box{
+
+.godparents .godparents-content .card .box {
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover .box{
+
+.godparents .godparents-content .card:hover .box {
     transform: scale(1.05);
 }
-.services .serv-content .card i{
-    font-size: 50px;
-    color: rgb(135, 0, 97);
-    transition: color 0.3s ease;
+
+.godparents .godparents-content .card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
 }
-.services .serv-content .card:hover i{
-    color: #fff;
+
+.godparents .godparents-content .card:hover img {
+    transform: scale(1.1);
 }
-.services .serv-content .card .text{
-    font-size: 25px;
+
+.godparents .godparents-content .card .text {
+    font-size: 20px;
     font-weight: 500;
-    margin: 10px 0 7px 0;
+    margin: 10px 0;
+}
+
+.godparents .godparents-content .card p {
+    font-size: 14px;
+    color: #ccc;
+    line-height: 1.5;
 }
