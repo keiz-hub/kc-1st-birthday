@@ -31,17 +31,17 @@ section{
     padding: 100px 0;
 }
 .max-width{
-    max-width: 1300px;
-    padding: 0 15px;
+    max-width: 100%;
+    padding: 0 100px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.event, .godparents, .calendar, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
-.about .about-content,
-.services .serv-content,
-.skills .skills-content,
-.contact .contact-content{
+.event .event-content,
+.godparents .godparents-content,
+.calendar .calendar-content,
+.greet .greet-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
