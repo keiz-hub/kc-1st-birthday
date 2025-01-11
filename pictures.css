@@ -1,28 +1,46 @@
+/* Calendar Section Styling */
 .calendar {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 15px;
+  gap: 20px; /* Similar gap styling as the Godparents Section */
   width: 100%;
   max-width: 800px;
+  background: #fff; /* White background for the calendar container */
+  padding: 20px; /* Add padding for inner content spacing */
+  border-radius: 10px; /* Rounded corners for a clean look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
 .month {
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: #f9f9f9; /* Light background for individual months */
+  border-radius: 8px; /* Consistent with other sections */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Similar shadow effect */
   overflow: hidden;
   text-align: center;
+  transition: all 0.3s ease; /* Smooth hover transition */
+  cursor: pointer; /* Clickable effect */
+}
+
+.month:hover {
+  background: rgb(200, 200, 255); /* Subtle hover effect */
 }
 
 .month img {
   width: 100%;
   height: auto;
   display: block;
+  border-bottom: 2px solid #ddd; /* Divider below image */
 }
 
 .month p {
-  padding: 10px;
+  padding: 15px; /* Increased padding for better spacing */
   font-size: 1rem;
-  font-weight: bold;
-  color: #333;
+  font-weight: 500;
+  color: #111; /* Dark text for contrast */
+  transition: transform 0.3s ease; /* Smooth hover animation */
+}
+
+.month:hover p {
+  transform: scale(1.1); /* Slightly enlarge text on hover */
+  color: #444; /* Slightly darker text color on hover */
 }
