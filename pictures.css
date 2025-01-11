@@ -5,21 +5,22 @@
   align-items: center;
   height: 100vh; /* Full viewport height */
   background-color: #f5f5f5; /* Optional background for contrast */
+  padding: 0 20px; /* Optional padding for better edge spacing */
 }
 
 /* Calendar Section Styling */
 .calendar {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive columns */
   gap: 20px;
-  max-width: 800px;
-  width: 100%;
+  width: 100%; /* Full width */
   background: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
+
 
 .month {
   background: #f9f9f9; /* Light background for individual months */
