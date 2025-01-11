@@ -6,7 +6,7 @@
   max-width: 800px;
 }
 
-.card {
+.month {
   background: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -14,13 +14,13 @@
   text-align: center;
 }
 
-.card img {
+.month img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-.card p {
+.month p {
   padding: 10px;
   font-size: 1rem;
   font-weight: bold;
