@@ -1,10 +1,12 @@
 /* Calendar Section Styling */
 .calendar {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px; /* Similar gap styling as the Godparents Section */
+  display: flex; /* Switch to flexbox layout */
+  flex-wrap: wrap; /* Allow wrapping for responsive design */
+  gap: 20px; /* Spacing between items */
+  justify-content: center; /* Center items horizontally */
+  align-items: stretch; /* Align items vertically */
   width: 100%;
-  max-width: 800px;
+  max-width: 100%;
   background: #fff; /* White background for the calendar container */
   padding: 20px; /* Add padding for inner content spacing */
   border-radius: 10px; /* Rounded corners for a clean look */
@@ -12,6 +14,8 @@
 }
 
 .month {
+  flex: 1 1 150px; /* Flex-grow, flex-shrink, and base size */
+  max-width: 200px; /* Ensure a maximum size for consistency */
   background: #f9f9f9; /* Light background for individual months */
   border-radius: 8px; /* Consistent with other sections */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Similar shadow effect */
