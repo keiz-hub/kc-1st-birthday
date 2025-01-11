@@ -1,23 +1,25 @@
 /* Parent Container Styling */
 .calendar-container {
-  display: flex; /* Use flexbox for alignment */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  height: 100vh; /* Full viewport height */
-  background-color: #f5f5f5; /* Optional background for better contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  width: 100%; /* Full width */
 }
 
-/* Calendar Section Styling */
+/* Grid Container Styling */
 .calendar {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px; /* Similar gap styling as the Godparents Section */
-  width: 100%;
-  max-width: 100%;
-  background: #fff; /* White background for the calendar container */
-  padding: 20px; /* Add padding for inner content spacing */
-  border-radius: 10px; /* Rounded corners for a clean look */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  gap: 20px;
+  justify-content: center; /* Ensure the grid is centered */
+  width: 100%; /* Responsive width */
+  max-width: 800px; /* Optional: max limit */
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .month {
