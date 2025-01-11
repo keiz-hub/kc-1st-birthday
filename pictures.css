@@ -1,3 +1,12 @@
+/* Parent Container Styling */
+.calendar-container {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  background-color: #f5f5f5; /* Optional background for better contrast */
+}
+
 /* Calendar Section Styling */
 .calendar {
   display: grid;
