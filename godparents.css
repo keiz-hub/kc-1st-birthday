@@ -96,3 +96,42 @@
     display: block;
 }
 
+@media (max-width: 768px) {
+    /* Adjust Godparents section layout for smaller screens */
+    .godparents .godparents-content {
+        flex-direction: column; /* Stack cards vertically */
+        gap: 15px; /* Adjust gap for smaller screens */
+        justify-content: center; /* Center the stacked cards */
+        align-items: center; /* Center-align the content */
+    }
+
+    .godparents .godparents-content .card {
+        flex: 1 1 100%; /* Full-width cards */
+        padding: 20px 15px; /* Adjust padding for smaller screens */
+    }
+
+    .godparents .godparents-content .card img {
+        width: 120px; /* Reduce image size */
+        height: 120px; /* Reduce image size */
+    }
+
+    .godparents .godparents-content .card .text {
+        font-size: 15px; /* Adjust font size for text */
+    }
+
+    .godparents .godparents-content .card p {
+        font-size: 13px; /* Adjust font size for paragraph */
+    }
+
+    /* Adjust Tabs layout */
+    .tabs {
+        flex-wrap: wrap; /* Allow tabs to wrap */
+        gap: 10px; /* Add space between tabs */
+        justify-content: center; /* Center the tabs */
+    }
+
+    .tab-button {
+        font-size: 16px; /* Reduce font size */
+        padding: 15px 30px; /* Adjust padding */
+    }
+}
