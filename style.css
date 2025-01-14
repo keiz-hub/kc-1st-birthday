@@ -309,7 +309,7 @@ footer span a:hover{
 @media (max-width: 768px) {
     .home {
         display: block; /* Switch to block for vertical layout */
-        background: url("images/Banner-mobile.png") no-repeat center; /* Optionally use a mobile-optimized image */
+        background: url("images/Banner-mobile1.png") no-repeat center; /* Optionally use a mobile-optimized image */
         height: auto; /* Let height adjust based on content */
         min-height: 400px; /* Smaller minimum height for mobile */
         background-size: cover;
