@@ -100,7 +100,7 @@
 
     .godparents .godparents-content .card {
         flex: 1 1 calc(50% - 15px); /* Two cards per row with space */
-        padding: 20px 15px; /* Adjust padding for smaller screens */
+        padding: 15px 10px; /* Adjust padding for smaller screens */
         box-sizing: border-box; /* Include padding and border in width */
     }
 
@@ -110,13 +110,13 @@
     }
 
     .godparents .godparents-content .card .text {
-        font-size: 13px; /* Adjust font size for text */
+        font-size: 12px; /* Adjust font size for text */
     }
 
     /* Adjust Tabs layout */
     .tabs {
         flex-wrap: wrap; /* Allow tabs to wrap */
-        gap: 5px; /* Add space between tabs */
+        gap: 10px; /* Add space between tabs */
         justify-content: center; /* Center the tabs */
     }
 
