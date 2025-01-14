@@ -35,7 +35,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Very Demure", "Very Cutesy", "Very Mindful"],
+        strings: ["Very Demure", "😲😲😲😲😲😲", "Very Mindful"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
