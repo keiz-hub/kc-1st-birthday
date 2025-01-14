@@ -99,15 +99,15 @@
 @media (max-width: 768px) {
     /* Adjust Godparents section layout for smaller screens */
     .godparents .godparents-content {
-        flex-direction: column; /* Stack cards vertically */
+        flex-wrap: wrap; /* Ensure cards wrap to the next row */
         gap: 15px; /* Adjust gap for smaller screens */
-        justify-content: center; /* Center the stacked cards */
-        align-items: center; /* Center-align the content */
+        justify-content: center; /* Center-align the cards */
     }
 
     .godparents .godparents-content .card {
-        flex: 1 1 100%; /* Full-width cards */
+        flex: 1 1 calc(50% - 15px); /* Two cards per row with space */
         padding: 20px 15px; /* Adjust padding for smaller screens */
+        box-sizing: border-box; /* Include padding and border in width */
     }
 
     .godparents .godparents-content .card img {
