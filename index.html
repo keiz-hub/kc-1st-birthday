@@ -553,34 +553,6 @@
         // Show the first tab by default
         showTab('ninang');
     </script>
-
-    <script>
-    function initMap() {
-        // Coordinates for the two locations
-        const location1 = { lat: 15.6449426975759, lng: 120.76271645230716 };
-        const location2 = { lat: 15.660461239893321, lng: 120.7676946497235 };
-
-        // Initialize the map
-        const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 14,
-            center: location1,
-        });
-
-        // Add markers for both locations
-        new google.maps.Marker({
-            position: location1,
-            map,
-            title: "Location 1",
-        });
-
-        new google.maps.Marker({
-            position: location2,
-            map,
-            title: "Location 2",
-        });
-    }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
     
 </body>
 </html>
