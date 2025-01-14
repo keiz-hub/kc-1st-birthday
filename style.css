@@ -313,24 +313,6 @@ footer span a:hover{
         background-attachment: scroll; /* Optional: Adjust background attachment for smoother scrolling */
     }
 }
-    .home .home-content .text-1 {
-        font-size: 20px; /* Adjust font size for mobile */
-    }
-
-    .home .home-content .text-2 {
-        font-size: 50px; /* Adjust font size for mobile */
-        font-weight: 600;
-    }
-
-    .home .home-content .text-3 {
-        font-size: 30px; /* Adjust font size for mobile */
-    }
-
-    .home .home-content .text-3 span {
-        color: rgb(135, 0, 97);
-        font-weight: 500;
-    }
-}
 
 @media (max-width: 690px) {
     .max-width{
