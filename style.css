@@ -341,6 +341,7 @@ footer span a:hover{
     .home .home-content .text-3 {
         font-size: 30px; /* Adjust font size for mobile */
         margin: 5px 0;
+        margin-top: 25px;
     }
 
     .home .home-content .text-3 span {
@@ -354,7 +355,7 @@ footer span a:hover{
         color: #fff;
         font-size: 20px; /* Smaller font size for mobile */
         padding: 10px 30px;
-        margin-top: 20px;
+        margin-top: 50px;
         font-weight: 400;
         border-radius: 6px;
         border: 2px solid rgb(135, 0, 97);
