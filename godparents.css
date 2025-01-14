@@ -116,7 +116,7 @@
     /* Adjust Tabs layout */
     .tabs {
         flex-wrap: wrap; /* Allow tabs to wrap */
-        gap: 10px; /* Add space between tabs */
+        gap: 5px; /* Add space between tabs */
         justify-content: center; /* Center the tabs */
     }
 
