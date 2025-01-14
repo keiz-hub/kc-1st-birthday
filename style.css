@@ -308,15 +308,9 @@ footer span a:hover{
 
 @media (max-width: 768px) {
     .home {
-        display: block; /* Adjust layout for smaller screens */
         background: url(images/banner.png) no-repeat center;
-        height: auto; /* Let height adjust based on content */
-        min-height: 400px; /* Smaller minimum height for mobile */
         background-size: cover;
-        background-attachment: scroll; /* Disable fixed background for smoother scrolling */
-        font-family: 'Ubuntu', sans-serif;
-        padding: 20px; /* Add padding for better readability on mobile */
-        text-align: center; /* Center-align content */
+        background-attachment: scroll; /* Optional: Adjust background attachment for smoother scrolling */
     }
 }
 
