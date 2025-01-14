@@ -320,12 +320,10 @@ footer span a:hover{
     .home .home-content .text-2 {
         font-size: 50px; /* Adjust font size for mobile */
         font-weight: 600;
-        margin-left: -3px;
     }
 
     .home .home-content .text-3 {
         font-size: 30px; /* Adjust font size for mobile */
-        margin: 5px 0;
     }
 
     .home .home-content .text-3 span {
