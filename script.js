@@ -35,16 +35,16 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Very Demure", "😲😲😲😲😲😲", "Very Mindful"],
+        strings: ["😊😊😊", "😲😲😲", "🥺🥺🥺"],
         typeSpeed: 100,
-        backSpeed: 60,
+        backSpeed: 70,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Very Demure", "Very Cutesy", "Very Mindful"],
+        strings: ["😲😲😲", "🍼🍼🍼", "😛😛😛"],
         typeSpeed: 100,
-        backSpeed: 60,
+        backSpeed: 70,
         loop: true
     });
 
