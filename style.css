@@ -305,9 +305,8 @@ footer span a:hover{
         margin-bottom: 35px;
     }
 }
-
+    
 @media (max-width: 768px) {
-    @media (max-width: 768px) {
     .home {
         display: block; /* Switch to block for vertical layout */
         background: url("images/Banner-mobile.png") no-repeat center; /* Optionally use a mobile-optimized image */
@@ -329,11 +328,13 @@ footer span a:hover{
 
     .home .home-content .text-1 {
         font-size: 18px; /* Adjust font size for mobile */
+        margin-top: 75px;
     }
 
     .home .home-content .text-2 {
         font-size: 50px; /* Adjust font size for mobile */
         font-weight: 600;
+        margin-top: 15px;
         margin-left: -3px;
     }
 
