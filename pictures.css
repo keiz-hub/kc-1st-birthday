@@ -46,3 +46,29 @@
   transform: scale(1.1); /* Slightly enlarge text on hover */
   color: #444; /* Slightly darker text color on hover */
 }
+
+@media (max-width: 768px) {
+    /* Calendar Section Styling for Smaller Screens */
+    .calendar {
+        flex-direction: column; /* Stack items vertically */
+        gap: 15px; /* Adjust gap between items */
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .month {
+        flex: 0 1 100%; /* Full width for each month */
+        padding: 10px; /* Adjust padding for smaller screens */
+        box-sizing: border-box; /* Ensure padding is included in width */
+    }
+
+    .month img {
+        width: 100%; /* Ensure image fits the container */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .month p {
+        font-size: 0.9rem; /* Adjust font size for better readability */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
+
